@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+<title id="title">Autonomous Line-Following Robot Prototype</title>
+<desc id="desc">Stylized lightweight chassis with sensors indicating robotics project.</desc>
+<defs>
+  <linearGradient id="bgR" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#0d1117" />
+    <stop offset="100%" stop-color="#1b2533" />
+  </linearGradient>
+  <linearGradient id="accentR" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#58a6ff" />
+    <stop offset="100%" stop-color="#1f6feb" />
+  </linearGradient>
+</defs>
+<rect width="800" height="450" fill="url(#bgR)" />
+<g transform="translate(140 160)">
+  <!-- Chassis -->
+  <rect x="0" y="0" width="520" height="120" rx="30" fill="#161b22" stroke="#2d333b" stroke-width="4" />
+  <!-- Wheels -->
+  <circle cx="70" cy="60" r="42" fill="#161b22" stroke="#30363d" stroke-width="6" />
+  <circle cx="450" cy="60" r="42" fill="#161b22" stroke="#30363d" stroke-width="6" />
+  <!-- Sensors -->
+  <g fill="url(#accentR)">
+    <rect x="200" y="10" width="24" height="40" rx="6" />
+    <rect x="240" y="10" width="24" height="40" rx="6" />
+    <rect x="280" y="10" width="24" height="40" rx="6" />
+  </g>
+  <!-- Line path -->
+  <path d="M0 140 Q140 120 260 140 T520 140" stroke="#58a6ff" stroke-width="8" fill="none" stroke-dasharray="10 12" />
+</g>
+<text x="50%" y="400" fill="#8b949e" font-family="Inter,Arial" font-size="22" text-anchor="middle">Sensors • Dynamics • Chassis Optimization</text>
+</svg>

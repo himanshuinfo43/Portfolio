@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+<title id="title">Modular Gearbox Assembly Concept</title>
+<desc id="desc">Stylized mechanical drawing with gears symbolizing CAD mechanical design.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#0d1117" />
+    <stop offset="100%" stop-color="#1f2937" />
+  </linearGradient>
+  <linearGradient id="gearGrad" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#58a6ff" />
+    <stop offset="100%" stop-color="#1f6feb" />
+  </linearGradient>
+</defs>
+<rect width="800" height="450" fill="url(#bg)" />
+<g fill="none" stroke="#2d333b" stroke-width="2">
+  <rect x="60" y="60" width="680" height="330" rx="14" />
+  <rect x="90" y="90" width="620" height="270" rx="8" stroke-dasharray="6 6" />
+</g>
+<g transform="translate(250 225)">
+  <circle r="110" fill="#161b22" stroke="#2d333b" stroke-width="4" />
+  <circle r="90" fill="#161b22" stroke="#30363d" stroke-width="3" />
+  <g id="teeth" stroke="url(#gearGrad)" stroke-width="14" stroke-linecap="round">
+    <path d="M0 -110 L0 -130" />
+    <path d="M77.8 -77.8 L92 -92" />
+    <path d="M110 0 L130 0" />
+    <path d="M77.8 77.8 L92 92" />
+    <path d="M0 110 L0 130" />
+    <path d="M-77.8 77.8 L-92 92" />
+    <path d="M-110 0 L-130 0" />
+    <path d="M-77.8 -77.8 L-92 -92" />
+  </g>
+  <circle r="34" fill="url(#gearGrad)" />
+</g>
+<g transform="translate(470 245)">
+  <circle r="64" fill="#161b22" stroke="#2d333b" stroke-width="4" />
+  <g stroke="#58a6ff" stroke-width="10" stroke-linecap="round">
+    <path d="M0 -64 L0 -78" />
+    <path d="M45.25 -45.25 L55 -55" />
+    <path d="M64 0 L78 0" />
+    <path d="M45.25 45.25 L55 55" />
+    <path d="M0 64 L0 78" />
+    <path d="M-45.25 45.25 L-55 55" />
+    <path d="M-64 0 L-78 0" />
+    <path d="M-45.25 -45.25 L-55 -55" />
+  </g>
+  <circle r="18" fill="#58a6ff" />
+</g>
+<text x="50%" y="410" fill="#8b949e" font-family="Inter,Arial" font-size="22" text-anchor="middle">CAD • Gears • Assembly Visualization</text>
+</svg>

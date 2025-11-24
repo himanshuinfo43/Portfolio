@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+<title id="title">Heat Exchanger Analysis Visualization</title>
+<desc id="desc">Stylized shell-and-tube heat exchanger with gradient flow representing thermal analysis.</desc>
+<defs>
+  <linearGradient id="bgT" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#0d1117" />
+    <stop offset="100%" stop-color="#142133" />
+  </linearGradient>
+  <linearGradient id="hot" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0%" stop-color="#ff7b54" />
+    <stop offset="100%" stop-color="#ffb347" />
+  </linearGradient>
+  <linearGradient id="cold" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0%" stop-color="#58a6ff" />
+    <stop offset="100%" stop-color="#1f6feb" />
+  </linearGradient>
+</defs>
+<rect width="800" height="450" fill="url(#bgT)" />
+<g transform="translate(100 130)">
+  <rect x="0" y="0" width="600" height="190" rx="48" fill="#161b22" stroke="#2d333b" stroke-width="4" />
+  <!-- Tubes -->
+  <g stroke-width="12" stroke-linecap="round">
+    <line x1="40" y1="50" x2="560" y2="50" stroke="url(#hot)" />
+    <line x1="40" y1="95" x2="560" y2="95" stroke="url(#cold)" />
+    <line x1="40" y1="140" x2="560" y2="140" stroke="url(#hot)" />
+  </g>
+  <!-- Flow arrows -->
+  <g fill="#ff7b54">
+    <polygon points="560,50 540,40 540,60" />
+    <polygon points="560,140 540,130 540,150" />
+  </g>
+  <g fill="#58a6ff">
+    <polygon points="40,95 60,85 60,105" />
+  </g>
+</g>
+<text x="50%" y="400" fill="#8b949e" font-family="Inter,Arial" font-size="22" text-anchor="middle">Shell & Tube • Thermal Efficiency • MATLAB</text>
+</svg>
